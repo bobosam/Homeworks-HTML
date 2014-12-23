@@ -1,0 +1,50 @@
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    font-family: TAHOMA;
+    font-size: 20px;
+}
+
+td, th{
+    border: 1px solid black;
+    height: 95px;
+    width: 95px;
+    padding: 7px;
+}
+
+th{
+    font-size: 50px;
+}
+
+td>table{
+    height: 80px;
+    width: 94px;
+}
+
+.nested{
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top{
+    vertical-align: top;
+}
+.bottom{
+    vertical-align: bottom;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.beer{
+    font-weight: 500;
+    font-size: 30px;
+    font-family:"arial";
+}

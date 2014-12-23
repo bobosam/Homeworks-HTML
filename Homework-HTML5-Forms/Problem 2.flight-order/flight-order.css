@@ -1,0 +1,123 @@
+#container{
+    width: 310px;
+    height: 200px;
+    background-color: #FFC0CB;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 8px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin: 0;
+}
+
+#to{
+    float: right;
+    margin-top: 0;
+    margin-top: -27px;
+}
+
+select{
+    width: 153px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#prefer{
+    float: right;
+    margin-right: 85px;
+}
+
+input[type="checkbox"]{
+    width: 9px;
+    height: 9px;
+}
+
+input[type="date"]{
+    width: 150px;
+    height: 14px;
+    font-size: 11px;
+}
+
+input[type="time"]{
+    width: 70px;
+    height: 14px;
+    font-size: 11px;
+}
+
+#departure{
+    float: left;
+    margin-top: 15px;
+    margin-right: 3px;
+}
+
+#departure-end{
+    float: right;
+    margin-top:-18px;
+}
+
+#return{
+    margin-top: 3px;
+    margin-right: 3px;
+    float: left;
+}
+#return-start{
+    margin-top: 3px;
+}
+
+#return-end{
+    float: right;
+    margin-top: -18px;
+}
+
+#people12{
+    width: 45px;
+    height: 12px;
+    font-size: 11px;
+}
+
+#people2{
+    width: 45px;
+    height: 12px;
+    font-size: 11px;
+}
+
+#people0{
+    width: 45px;
+    height: 12px;
+    font-size: 11px;
+}
+
+#div12, #div2, #div0{
+    float: left;
+    width: 50px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+#choose-class{
+    float: right;
+    margin-top: -27px;
+}
+
+#search{
+    float: right;
+}
+
+input[type="submit"]{
+    width: 153px;
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 11px;
+}

@@ -1,0 +1,22 @@
+body{
+	background-color: #ADD8E6;
+}
+hr{
+	color: #D0CDCC;
+}
+
+#data{
+	font-weight: bold;
+}
+
+span{
+	font-weight: 100;
+}
+
+ul+li{
+	color: #8787BF;
+}
+
+dt{
+	font-style: italic;
+}

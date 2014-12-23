@@ -1,0 +1,94 @@
+body{
+    font-family: TAHOMA, Helvetica, sans-serif;
+    background-color:#EEEEEE;
+}
+
+body>#container{
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+body>#container>header>h1{
+    color: #43312D;
+    font-size: 24px;
+}
+
+body>#container>header p{
+    color: #66617E;
+}
+
+body>#container>main{
+    padding: 10px 50px;
+
+}
+
+body>#container>main form{
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+body>#container>main form fieldset{
+    border: none;
+    text-align: left;
+}
+
+body>#container>main form fieldset input{
+    width: 98%;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body>#container>main form fieldset .ok{
+    background-image: url("../images/ok.png");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: right;
+}
+
+body>#container>main form fieldset .no{
+    background-image: url("../images/no.png");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: right;
+}
+
+
+body>#container>main form fieldset #checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+body>#container>main form fieldset #submit{
+    width: 50%;
+    height: 40px;
+}
+
+body>#container>main form fieldset #submit{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body>#container>main form fieldset #login{
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+}
+
+body>#container>main form fieldset #login:hover{
+    cursor: pointer;
+}
+
+body>#container>main form fieldset a{
+    margin-left: 12px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+table{
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: Arial;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+th{
+    font-weight: 900 ;
+    font-size: 1.4em;
+}
+tbody tr:nth-child(1){
+    font-weight: bold;
+    text-align: center;
+}
+
+tfoot tr{
+    text-align: right;
+    font-weight: normal;
+    height: 1.6em;
+}
+
+tbody td:nth-child(1){
+    width: 2.4em;
+    height: 1.4em;
+}
+

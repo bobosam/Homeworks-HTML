@@ -1,0 +1,56 @@
+body,#container, header, main, figure, figcaption, audio,video, img{
+    margin: 0;
+    padding: 0;
+}
+
+body>#container{
+    box-sizing: border-box;
+    color: #000000;
+    margin: 5px auto;
+    font-family: Arial;
+    height: 400px;
+    width: 1075px;
+    background-color: #FFC0CB;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+body>#container>header{
+    text-align: center;
+}
+
+body>#container>main>figure{
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+body>#container>main>figure:nth-child(1){
+    width: 245px;
+}
+
+body>#container>main figure>meter{
+    width: 245px;
+}
+
+body>#container>main>figure figcaption{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+body>#container>main>figure>img{
+    margin-bottom: 15px;
+}
+
+body>#container>main>figure>div>object{
+    height: 159px;
+    width: 290px;
+}
+
+body>#container>main>figure div>audio{
+    width: 290px;
+    height: 25px;
+    margin-top: 5px;
+}
+

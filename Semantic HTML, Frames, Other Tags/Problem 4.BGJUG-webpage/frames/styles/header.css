@@ -1,0 +1,56 @@
+body{
+    padding: 0 50px;
+}
+
+body>header>h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+body>header>nav>ul{
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+body>header>nav>ul>li{
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+}
+
+body>header>nav>ul>li>a{
+    color: #9F9F9F;
+    text-decoration: none;
+    margin-right: 40px;
+
+}
+
+body>header>nav>form{
+    display: inline-block;
+    float: right;
+    margin-bottom: 5px;
+}
+
+body>header>nav>form>input{
+    height: 24px;
+    vertical-align: top;
+    margin-right: 0;
+}
+
+body>header>nav>form>button{
+    width: 30px;
+    height: 30px;
+    background-image:url('../../images/search.png');
+    vertical-align: baseline;
+    margin-left: -4px;
+    border-left: none;
+    border-top: none;
+}
+
+body>header>hr{
+    clear: both;
+}
+

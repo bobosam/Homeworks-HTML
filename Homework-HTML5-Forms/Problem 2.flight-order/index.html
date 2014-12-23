@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="flight-order.css" type="text/css">
+    <title>Flight-order</title>
+</head>
+<body>
+    <div id="container">
+        <h2>FLIGHT ORDER</h2>
+        <form action="#">
+        <div id="from">
+            <p>From</p>
+            <select name="from" size="1">
+                <option value="enter-a-city">enter a city</option>
+                <option value="Plovdiv">Plovdiv</option>
+                <option value="Varna">Varna</option>
+                <option value="Vidin">Vidin</option>
+            </select>
+        </div>
+        <div id="to">
+            <p>To</p>
+            <select name="to" size="1">
+                <option value="enter-a-city">enter a city</option>
+                <option value="Plovdiv">Plovdiv</option>
+                <option value="Varna">Varna</option>
+                <option value="Vidin">Vidin</option>
+            </select>
+        </div>
+        <div id="prefer">
+            <input type="checkbox" name="prefer" value="prefer">Prefer directs
+        </div>
+        <div id="departure">
+            <p>Departure Date</p>
+            <input type="date" name="departure-date" value="2014-06-09" required/>
+        </div>
+        <div>
+            <p>Time Interval</p>
+            <input type="time" name="start-time" value="00:20" required/>
+        </div>
+        <div id="departure-end">
+            <input type="time" name="end-time" value="05:00" required/>
+        </div>
+        <div id="return">
+            <p>Return Date</p>
+            <input type="date" name="return-date" value="2014-06-13" required/>
+        </div>
+        <div id="return-start">
+            <p>Time Interval</p>
+            <input type="time" name="start-time-return" value="16:00" required/>
+        </div>
+        <div id="return-end">
+            <input type="time" name="end-time-return" value="22:00" required/>
+        </div>
+        <div id="div12">
+            <p>12+</p>
+            <input id="people12" name="12+" placeholder="0">
+        </div>
+        <div id="div2">
+            <p>2-12</p>
+            <input id="people2" name="2-12" placeholder="0">
+        </div>
+        <div id="div0">
+            <p>0-2</p>
+            <input id="people0" name="0-2" placeholder="0">
+        </div>
+        <div id="choose-class">
+            <p>Choose class</p>
+            <select name="choose-class" size="1">
+                <option value="economy">Economy</option>
+                <option value="first-class">First-class</option>
+                <option value="business">Business</option>
+            </select>
+        </div>
+        <div id="search">
+            <input type="submit" value="Search">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

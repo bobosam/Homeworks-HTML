@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="simple-form.css" rel="stylesheet" type="text/css">
+    <title>simple-form</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h4>Enter the system</h4>
+            <p>It is necessary to login in Your account in order to sign in for a course</p>
+        </div>
+        <div id="left-form">
+           <form>
+               <fieldset>
+                   <legend>ARE YOU NEW?<span> REGISTER</span></legend>
+                   <div>
+                       <input name="user-name" placeholder="User name" required/>
+                  </div>
+                   <div>
+                       <input name="email" placeholder="Email" required/>
+                   </div>
+                   <div>
+                       <input type="password" placeholder="Password" required/>
+                   </div>
+                   <div>
+                       <input type="password" placeholder="Confirm Password" required/>
+                   </div>
+                   <div >
+                       <input id="register" type="submit" value="Register"/>
+                   </div>
+               </fieldset>
+           </form>
+        </div>
+        <div id="right-form">
+            <form>
+                <fieldset>
+                    <legend>ALREADY A STUDENT? LOGIN</legend>
+                    <div>
+                        <input name="user-name" placeholder="User name" required/>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Password" required/>
+                    </div>
+                    <div class="small">
+                        <input id="remember" type="checkbox" name="remember" value="remember">Remember me?
+                    </div>
+                    <div>
+                        <input id="login" type="submit" value="Login"/>
+                    </div>
+                    <div id="forgot">
+                        <a href="forgot-password.html">Forgot Password</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

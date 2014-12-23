@@ -1,0 +1,47 @@
+@media  all and (max-width: 1000px) {
+
+    #logoarea{
+        width: 100%;
+        text-align: center;
+    }
+
+    header{
+        height: 200px;
+        width: 100%;
+        display: block;
+    }
+
+    #header-area-right{
+        display: block;
+        float: none;
+    }
+
+    #menu{
+        display: block;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    #search-form{
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #p-albums-items{
+        width: 90%;
+    }
+
+
+}
+
+@media  all and (max-width: 756px){
+    #p-albums-items {
+        width: 60%;
+    }
+
+    #nav-menu li.active a{
+
+        width: 80%;
+    }
+}

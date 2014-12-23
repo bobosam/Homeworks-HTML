@@ -1,0 +1,25 @@
+table{
+    width: 29%;
+    border: 1px solid #BFBFBF;
+    margin: 0 auto;
+    font-family:tahoma;
+}
+th{
+    font-size: 2em;
+    text-align: left;
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-left: 12px;
+}
+
+h4{
+    margin-bottom:0px;
+    margin-left: 12px;
+}
+
+a{
+    margin-left: 6px;
+}

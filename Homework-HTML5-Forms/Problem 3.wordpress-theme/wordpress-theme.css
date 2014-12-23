@@ -1,0 +1,43 @@
+#container{
+    font-family: ariele;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing:-0.4px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+#choose{
+    margin-bottom: 15px;
+}
+
+#choose-file{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+#wordpress{
+    width: 120px;
+    height: 25px;
+    vertical-align: bottom;
+    margin-right: 0;
+}
+
+button{
+    width: 31px;
+    height: 31px;
+    background-image: url("images/w.png");
+    border: none;
+}
+
+#w{
+    float: right;
+    margin-top: -28px;
+    margin-right: 2px;
+}
+

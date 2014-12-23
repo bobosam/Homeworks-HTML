@@ -1,0 +1,64 @@
+body, div, section, form, header, h1, h2,label, textarea, input, img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz Regular';
+    src: local('Yanone Kaffeesatz Regular'), url(../fonts/yanonekaffeesatz-regular-webfont.ttf);
+}
+
+body{
+    background-image: url("../images/form-background.png");
+}
+
+body>#container{
+    width: 550px;
+    margin: 0 auto;
+}
+
+body>#container>section{
+    position: relative;
+    bottom: 322px;
+    right: 10px;
+}
+
+body>#container section>img{
+    position: relative;
+    bottom: 240px;
+    left: 10px;
+}
+
+body>#container>section>header{
+    text-align: center;
+    font-family: "Yanone Kaffeesatz Regular";
+    font-size: 30px;
+    margin: 10px;
+}
+
+body>#container>section>form{
+    background-image: url("../images/letter-background.png");
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 25px;
+}
+
+body>#container>#bottom{
+    position: relative;
+    top: 145px;
+    z-index: -10;
+}
+
+body>#container>section>form textarea, #name, #email{
+    width: 400px;
+    background:transparent;
+}
+
+body>#container>section>form #submit{
+    text-align: center;
+    margin: 15px;
+    margin-left: 150px;
+}

@@ -1,0 +1,18 @@
+body{
+    padding: 30px 50px;
+}
+
+body>aside>nav>ul{
+    padding: 0;
+    list-style: none;
+}
+
+body>aside>nav>ul>li{
+    margin-bottom: 8px;
+}
+
+body>aside>nav>ul>li>a{
+    text-decoration: none;
+    color: #77A0C7;
+    font-size: 15px;
+}

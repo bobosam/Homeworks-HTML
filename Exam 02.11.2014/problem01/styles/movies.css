@@ -1,0 +1,41 @@
+body>section{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body>section article{
+    width: 160px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 25px;
+    margin-right: 20px;
+}
+
+body>section article .image{
+    width: 190px;
+    height: 223px;
+    border: 1px solid #000000;
+    padding-left: 25px;
+}
+
+body>section article .name{
+    width: 200px;
+    height: 40px;
+}
+
+body>section article button{
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/MoreInfo.png");
+    vertical-align: bottom;
+
+}
+
+body>section article button:hover{
+    cursor: pointer;
+}
+
+body>section article span{
+    color: grey;
+}

@@ -1,0 +1,86 @@
+body{
+    background: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body>footer>#twitter{
+    padding-left: 30px;
+    background-color: #F7F7F7;
+    color: #908B82;
+    height: 35px;
+    margin: 0;
+}
+
+body>footer>#twitter:before{
+    content: url("../../images/twitter.png");
+    opacity: 0.3;
+}
+
+body>footer>#java-group{
+    width: 150px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+body>footer>nav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+    body>footer>nav>ul{
+        list-style: none;
+    }
+
+    body>footer>nav>ul>li>a{
+        text-decoration: none;
+        color: white;
+    }
+
+body>footer>#architecture{
+    display: inline-block;
+    margin-left: 100px;
+    width: 200px;
+    vertical-align: top;
+}
+
+body>footer h4{
+    margin: 5px;
+}
+
+body>footer>#architecture>p{
+    margin: 0;
+}
+
+body>footer .dark{
+    color: #5F7B77;
+    font-size: 14px;
+}
+
+body>footer>#more{
+    width: 250px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+body>footer>#more p{
+    font-size: 16px;
+    margin: 0;
+}
+
+body>footer>#copy-right{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+body>footer>#more span{
+    color: white;
+}

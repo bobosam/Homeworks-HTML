@@ -1,0 +1,53 @@
+body, section, article, a, h1,img, p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 13px;
+}
+
+body>section{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+body>section article{
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border: 1px solid #CBCBCB;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+    body>section article>img{
+        display: block;
+        float: left;
+        clear: both;
+    }
+
+    body>section article>time{
+        display: block;
+        float: left;
+        font-size: 10px;
+    }
+
+    body>section article>a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+        body>section article>a:hover{
+            text-decoration: underline;
+        }
+
+        body>section article>a>h1{
+            font-size: 13px;
+        }

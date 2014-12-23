@@ -1,0 +1,169 @@
+html, body, div, h1, ul, li, a, img, span, form, legend, input, button, textarea, fieldset {
+    margin: 0;
+    padding: 0
+}
+
+.background{
+    width: 800px;
+    height: 300px;
+    background: #00923E;
+    margin: 0 auto;
+    padding: 1.3%
+}
+
+#container{
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 15px
+}
+
+table {
+    border: 2px solid;
+    border-radius: 15px;
+    border-spacing: 0;
+    width: 800px;
+    height: 300px
+}
+
+thead th:nth-child(1){
+    border-top-left-radius: 15px
+}
+
+thead th:nth-child(5){
+    border-top-right-radius: 15px
+}
+
+thead {
+    background: #F8C711
+}
+
+thead tr{
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+thead th{
+    font-size: 1.3em;
+    font-family: Arial;
+    padding: 1%;
+    margin:0;
+    border: 1px solid black
+}
+
+tr:nth-child(even){
+    background: #C8C8C8
+}
+
+table td {
+    border-right: 1px solid black;
+    border-top: 2px solid black;
+    border-left: 1px solid black
+}
+
+tr td:nth-child(1){
+    text-align: right
+}
+
+tr td:nth-child(2){
+    text-align: center
+}
+
+tr td:nth-child(4){
+    text-align: center
+}
+
+tr td:nth-child(5){
+    text-align: right
+}
+
+tr td:nth-child(6){
+    text-align: center
+}
+
+.red-bet {
+    background-image: url(images/red-bet.png);
+    width: 39px;
+    height: 39px;
+    border: none;
+    background-color: white;
+    cursor: not-allowed
+   }
+
+.red-bet1 {
+    background-color: #C8C8C8;
+    background-image: url(images/red-bet1.png);
+    width: 39px;
+    height: 39px;
+    border: none;
+    cursor:not-allowed
+}
+
+.green-bet{
+    background-color: white;
+    width: 39px;
+    height:39px;
+    border: none;
+    background-image: url(images/green-bet.png);
+    cursor: pointer
+}
+
+.green-bet1 {
+    background-color: #C8C8C8;
+    background-image: url(images/green-bet1.png);
+    width: 39px;
+    height: 39px;
+    border: none;
+    cursor: pointer
+}
+
+#brazil:after{
+    content: url(images/Brazil.png);
+    padding: 2px
+}
+
+#mexico:before{
+    content: url(images/Mexico.png);
+    padding: 2px
+}
+
+#spain:after{
+    content: url(images/Spain.png);
+    padding: 2px
+}
+
+#netherlands:before{
+    content: url(images/Netherlands.png);
+    padding: 2px
+}
+
+#italy:after{
+    content: url(images/Italy.png);
+    padding: 2px
+}
+
+#england:before{
+    content: url(images/England.png);
+   padding: 2px
+}
+
+#argentina:after{
+    content: url(images/Argentina.png);
+    padding: 2px
+}
+
+#bosnia:before{
+    content: url(images/Bosnia_and_Herzegovina.png);
+    padding: 2px
+}
+
+#germany:after{
+    content: url(images/Germany.png);
+    padding: 2px
+}
+
+#portugal:before{
+    content: url(images/Portugal.png);
+    padding: 2px
+}

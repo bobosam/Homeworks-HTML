@@ -1,0 +1,110 @@
+body, header,main,section, article, footer,nav, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F3F5;
+    background-image: url("../images/bgr.jpg");
+    background-repeat: repeat-x;
+    height: 350px;
+}
+
+body>header{
+    height: 350px;
+    width: 920px;
+    background-image: url("../images/got-dolls.jpg");
+    margin: 0 auto;
+    position: relative;
+    bottom: 22px;
+    padding-top: 220px;
+    padding-left: 450px;
+}
+
+body>header h1{
+    background: grey;
+    font-family: Lobster,sans-serif;
+    color: white;
+    font-size: 62px;
+    padding: 10px;
+    width: 300px;
+}
+
+main{
+    width: 920px;
+    height: 100%;
+    font-family:"Open-sans", sans-serif;
+    margin: 0 auto;
+    background-color: #F3F3F5;
+}
+
+body>main>nav{
+    width: 200px;
+    height: 340px;
+    background-image: url("../images/Jon-Snow.jpg");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 10px;
+    display: inline-block;
+    float: left;
+}
+
+body>main>nav>ul{
+    list-style-type: none;
+}
+
+body>main>nav>ul>li{
+    width: 200px;
+    padding: 10px;
+    background-color: #42464B;
+    border: 1px solid #6B6E72 ;
+}
+
+body>main>nav>ul>li:hover{
+    cursor: pointer;
+    background-color: #4E5359;
+}
+
+body>main>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+body>main>section{
+    width: 650px;
+    display: inline-block;
+    float: right;
+}
+
+body>main>section article{
+    width: 100%;
+    background-color: white;
+    padding: 0 10px;
+}
+
+body>main>section article h2{
+    font-size: 17px;
+    color: #D5D3D6;
+}
+
+body>main>section article a{
+    color: #102DF1;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body>main>section article p{
+    color: #D5D3D6;
+    font-size: 15px;
+}
+
+body>footer{
+    clear: both;
+    height: 80px;
+    width: 100%;
+    background-color: #C9C7CC;
+    padding-left:220px;
+    padding-top: 10px;
+}

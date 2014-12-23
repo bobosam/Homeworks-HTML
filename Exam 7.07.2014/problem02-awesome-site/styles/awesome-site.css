@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito-Regular'), url(http://fonts.gstatic.com/s/nunito/v7/0rdItLTcOd8TSMl72RUU5w.woff) format('woff');
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Nunito-Bold'), url(http://fonts.gstatic.com/s/nunito/v7/TttUCfJ272GBgSKaOaD7Kj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Fairview';
+    src: local('Fairview-Regular'), url(../fonts/Fairview_Regular.otf);
+}
+
+body, div, header, h1, nav, ul, li, a, main, h2, table, caption, thead, tbody, tr, th, td,footer, p, hr{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Nunito, Arial, sans-serif;
+}
+
+    body>#container{
+        width: 670px;
+        margin: 0 auto;
+    }
+
+        body>#container>header{
+            font-family: Fairview, Helvetica, sans-serif;
+            background-color: #E05E43;
+        }
+
+            body>#container>header>a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                font-size: 42px;
+            }
+
+body>#container>header>a:hover{
+    color: black;
+}
+
+        body>#container>nav>ul{
+            list-style-type: none;
+            text-align: center;
+            margin: 5px;
+        }
+
+        body>#container>nav>ul>li{
+            display: inline-block;
+            margin: 5px;
+        }
+
+        body>#container>nav>ul>li>a{
+            text-decoration: none;
+            color: #666666;
+            font-size: 20px;
+            font-family: Fairview, Helvetica, sans-serif;
+            padding: 5px;
+        }
+
+        body>#container>nav>ul li>#home{
+            background-color: #E05E43;
+            color: white;
+        }
+
+body>#container>nav>ul>li>a:hover{
+    color: black;
+}
+
+body>#container>nav>ul li>#home:hover{
+    color: black;
+}
+
+        body>#container>main{
+            padding: 20px;
+        }
+
+    body>#container>main>table{
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+body>#container>main>table>caption{
+    text-align: left;
+    font-weight: bold;
+}
+
+body>#container>main>table>thead{
+    text-align: left;
+}
+
+body>#container>main>table>thead>tr>th{
+    border-top: 1px solid #EBEBEB;
+    width: 190px;
+}
+
+body>#container>main>table a{
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px dashed red;
+}
+
+body>#container>main>table a:hover{
+    color: black;
+}
+
+body>#container>footer{
+    background-color: #222222;
+    color: #A7AAAA;
+    font-family: Nunito, Arial, sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+body>#container>footer>ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 5px;
+}
+
+body>#container>footer>ul>li{
+    display: inline-block;
+    margin: 5px;
+}
+
+body>#container>footer>ul li>a {
+    text-decoration: none;
+    color: #9AA5AA;
+    font-size: 15px;
+    padding: 5px;
+}
+
+body>#container>footer p{
+    text-align: center;
+}
+
+body>#container>footer p a{
+    text-decoration: none;
+    color: #38444B;
+    font-size: 10px;
+}
+
+body>#container>footer>ul li>a:hover{
+    color: red;
+    background-color: #9AA5AA;
+}

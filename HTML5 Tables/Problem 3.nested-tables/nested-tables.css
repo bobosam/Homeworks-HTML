@@ -1,0 +1,12 @@
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid black;
+    font-family: "TAHOMA";
+    font-weight: 500;
+    font-size: 2em;
+    padding: 8px;
+}
